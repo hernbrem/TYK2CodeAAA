@@ -8,7 +8,4 @@ FavoritePottyWord = input("What is your favorite potty verb that ends in -ed?\n"
 FavoriteShape = input("What is your favorite shape?\n")
 FavoriteActionVerb = input("What is your favorite action verb?\n")
 FavoriteNoun = input("What is your favorete noun?\n")
-
-
-
-#print"(once upon a time there whas a                                               
+Favoritedesert = input("What is your Favorite desert?\n")
