@@ -2,6 +2,6 @@
 import turtle
 t = turtle.Pen()
 t.speed(0)
-for x in range(250):
-    t.forward(x*2.2)
+for x in range(1000):
+    t.forward(x)
     t.left(90)
