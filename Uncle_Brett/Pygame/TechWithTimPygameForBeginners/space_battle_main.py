@@ -121,7 +121,7 @@ def main():
     yellow_bullets = []
     
     red_health = 10
-    yellow_health = 10
+    yellow_health = 30
     
     clock = pygame.time.Clock()
     run = True
@@ -133,7 +133,7 @@ def main():
                 pygame.quit()
             
             if event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_LCTRL and len(yellow_bullets) < MAX_BULLETS:
+                if event.key == pygame.K_LCTRL and len(yellow_bullets) < MAX_BULLETS+5:
                     bullet = pygame.Rect(
                         yellow.x + yellow.width, yellow.y + yellow.height//2 - 2, 10, 5)
                     yellow_bullets.append(bullet)
